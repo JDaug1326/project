@@ -1,0 +1,8 @@
+prefix=/home/ZUMO/install
+
+Name: gazebo_light_sensor_plugin
+Description: Description of gazebo_light_sensor_plugin
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: gazebo_plugins gazebo_ros roscpp

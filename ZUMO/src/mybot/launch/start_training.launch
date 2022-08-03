@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <param name="/use_sim_time" value="true" />
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="$(find mybot)/worlds/my_world.world"/>
+  </include>
+
+  <arg name = "gui" value="false"/>
+
+<!-- Load in robots -->
+  <include file="$(find mybot)/launch/robots_training.launch"/>
+</launch>

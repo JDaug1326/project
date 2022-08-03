@@ -1,0 +1,2 @@
+gazebo_light_sensor_plugin:mybot:sumo_training:teleop_twist_keyboard
+-DCATKIN_DEVEL_PREFIX=/home/ZUMO/devel -DCMAKE_INSTALL_PREFIX=/home/ZUMO/install -G Unix Makefiles
